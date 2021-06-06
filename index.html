@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/200d11d5ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>incheonAirport</title>
+</head>
+
+<body>
+
+
+    <!-- home -->
+    <section id="home">
+        <!-- header -->
+        <header id="header">
+            <nav class="header__top">
+                <ul class="header__site">
+                    <li class="header__site__link"><a href="#">인천국제공항</a></li>
+                    <li class="header__site__link"><a href="#">인천국제항공사</a></li>
+                </ul>
+                <ul class="header__logo">
+                    <li class="logo"><img src="./img/logo_white.png" alt="로고"></li>
+
+                </ul>
+                <ul class="header__util">
+                    <li class="header__util__list"><a href="">로그인</a></li>
+                    <li class="header__util__list"><a href="">회원가입</a></li>
+                    <li class="header__util__list"><a href="">고객센터</a></li>
+                    <li class="header__util__list"><a href="">사이트맵</a></li>
+                    <li class="header__util__list">
+                        <button class="select__link__off" name="button" type="button" title="클릭하면 관련사이트 목록이 나타납니다.">
+                            <span class="lang__left">Language</span>
+                            <span class="arrow__down"><i class="fas fa-chevron-down"></i></span>
+                        </button>
+                        <ul class="select__list">
+                            <li class="select__list__item">한국어</li>
+                            <li class="select__list__item">English</li>
+                            <li class="select__list__item">中文</li>
+                            <li class="select__list__item">日本語</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="yellow--bar"></div>
+            <nav class="header__bottom">
+                <ul class="header__gnb">
+                    <li class="header__gnb__menu"><a href="#">출발</a>
+                        <ul class="submenu">
+                            <li class="submenu__list">출발시간</li>
+                            <li class="submenu__list">출국절차</li>
+                            <li class="submenu__list">출국체크사항</li>
+                            <li class="submenu__list">취항정보</li>
+                        </ul>
+                    </li>
+                    <li class="header__gnb__menu"><a href="#">도착</a>
+                        <ul class="submenu">
+                            <li class="submenu__list">도착시간</li>
+                            <li class="submenu__list">입국절차</li>
+                            <li class="submenu__list">환영안내</li>
+                        </ul>
+                    </li>
+                    <li class="header__gnb__menu"><a href="#">환승</a>
+                        <ul class="submenu">
+                            <li class="submenu__list">환승안내</li>
+                            <li class="submenu__list">환승편의시설</li>
+                            <li class="submenu__list">환승투어</li>
+                        </ul>
+                    </li>
+                    <li class="header__gnb__menu"><a href="#"><span>교통</span><span>주차</span></a>
+                        <ul class="submenu">
+                            <li class="submenu__list">오시는길</li>
+                            <li class="submenu__list">주차안내</li>
+                            <li class="submenu__list">대중교통</li>
+                            <li class="submenu__list">공항셔틀버스</li>
+                            <li class="submenu__list">렌터카</li>
+                        </ul>
+                    </li>
+                    <li class="header__gnb__menu"><a href="#"><span>쇼핑</span><span>식당</span></a>
+                        <ul class="submenu">
+                            <li class="submenu__list">면세점쇼핑</li>
+                            <li class="submenu__list">일반쇼핑</li>
+                            <li class="submenu__list">식당</li>
+                            <li class="submenu__list">이벤트</li>
+                        </ul>
+                    </li>
+                    <li class="header__gnb__menu"><a href="#"><span>안내</span><span>서비스</span></a>
+                        <ul class="submenu">
+                            <li class="submenu__list">터미널 안내</li>
+                            <li class="submenu__list">공항지도</li>
+                            <li class="submenu__list">안내·편의시설</li>
+                            <li class="submenu__list">공항즐기기</li>
+                            <li class="submenu__list">맞춤형 서비스</li>
+                            <li class="submenu__list">고객센터</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="header__search">
+                    <li>
+                        <a href="#">
+                            <span><i class="fas fa-map-marker-alt"></i>
+                            </span> 공항지도
+                        </a>
+                    </li>
+                    <li class="search">
+                        <div class="close__btn">X</div>
+                        <input type="text" class="search__textbox">
+                    </li>
+                    <span class="searh__btn"><i class="fas fa-search"></i>검색</span>
+
+                </ul>
+            </nav>
+            <nav class="quick">
+                <ul class="quick__menu">
+                    <li class="quick__menu__list sns">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="quick__menu__list sns">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="quick__menu__list sns">
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="quick__menu__list sns">
+                        <a href="#">
+                            <i class="fab fa-line"></i>
+                        </a>
+                    </li>
+                    <li class="quick__menu__list map">
+                        <a href="#">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                        <br>내 터미널 <br>확인하기
+                    </li>
+                    <li class="quick__menu__list">
+                        <a href="#">
+                            <i class="fas fa-external-link-square-alt"></i>
+                        </a>
+                        <br>터미널 간<br>이동
+                    </li>
+                    <li class="quick__menu__list">
+                        <a href="">
+                            <i class="fas fa-laptop-house"></i>
+                        </a>
+                        <br>온라인<br>예약
+                    </li>
+                    <li class="quick__menu__list chat">
+                        <a href="#">
+                            <i class="far fa-comment-dots"></i>
+                        </a>
+                        <br>챗봇<br>AIRBOT
+                    </li>
+                    <li class="quick__menu__list">
+                        TOP
+                    </li>
+                </ul>
+            </nav>
+        </header><!-- header -->
+        <section class="reservation">
+            <div class="reservation__container">
+                <h2 class="air__search">항공편 검색</h2>
+                <div class="air__search__flight">
+                    <div>
+                        <span>출발</span>
+                        <span>도착</span>
+                    </div>
+                    <input type="text" placeholder="항공편명/목적지를 입력하세요.">
+                    <button class="air__search__icon"><i class="fas fa-search"></i></button>
+                    <p class="air__search__desc">※ 전체 운항시간표는 검색버튼을 클릭하면 보실 수 있습니다.</p>
+                </div>
+            </div>
+        </section>
+    </section><!-- home -->
+    <!-- common-guide -->
+    <section id="common__guide" class="section">
+        <div class="main__content">
+            <h2 class="content__title">공항 이용 가이드</h2>
+            <h3>Manual For Passenger</h3>
+            <ul class="guide__item">
+                <li class="guide__item__col">
+                    <div class="content__img">
+                        <h4 class="guide__title">여행 전 확인 할 것</h4>
+                        <p class="guide__desc">공항 오기 전 확인할 정보를 알려드립니다.</p>
+                    </div>
+                    <div class="guide__detail__box">
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">항공편</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">여객 출발 시간표</a></li>
+                                <li><a href="#">여객 출발 정기 운항편</a></li>
+                                <li><a href="#">여객 도착 시간표</a></li>
+                                <li><a href="#">여객 도착 정기 운항편</a></li>
+                            </ul>
+                        </div>
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">여행준비</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">환전</a></li>
+                                <li><a href="#">보험</a></li>
+                                <li><a href="#">택배</a></li>
+                                <li><a href="#">로밍</a></li>
+                                <li><a href="#">기내반입 금지물품</a></li>
+                                <li><a href="#">코로나19 검사센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">교통수단</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">오시는길</a></li>
+                                <li><a href="#">대중교통</a></li>
+                                <li><a href="#">주차안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="guide__item__col">
+                    <div class="content__img">
+                        <h4 class="guide__title">공항에서 할 것</h4>
+                        <p class="guide__desc">인천공항 최적의 서비스를 안내해드립니다.</p>
+                    </div>
+                    <div class="guide__detail__box">
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">빠른 수속 팀</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">셀프체크인/셀프백드랍</a></li>
+                                <li><a href="#">자동출국심사</a></li>
+                                <li><a href="#">정부종합행정센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">여행준비</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">면세점</a></li>
+                                <li><a href="#">쇼핑</a></li>
+                                <li><a href="#">식당</a></li>
+                                <li><a href="#">라운지</a></li>
+                                <li><a href="#">문화공연</a></li>
+                            </ul>
+                        </div>
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">교통약자 서비스</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">임산부/유아/어린이 동반</a></li>
+                                <li><a href="#">교통약자동반</a></li>
+                                <li><a href="#">애완동물동반</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="guide__item__col">
+                    <div class="content__img">
+                        <h4 class="guide__title">환승할 때 할 것</h4>
+                        <p class="guide__desc">환승객들을 위한 특별한 혜택을 안내해드립니다.</p>
+                    </div>
+                    <div class="guide__detail__box">
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">환승안내</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">제1 여객터미널에서 환승하기</a></li>
+                                <li><a href="#">탑승동에서 환승하기</a></li>
+                                <li><a href="#">제2여객터미널에서 환승하기</a></li>
+                                <li><a href="#">내항기 환승</a></li>
+                            </ul>
+                        </div>
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">환승편의시설</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">호텔</a></li>
+                                <li><a href="#">라운지</a></li>
+                                <li><a href="#">휴식(케어/마사지)</a></li>
+                            </ul>
+                        </div>
+                        <div class="guide__detail__row">
+                            <h5 class="guide__detail__title">환승투어</h5>
+                            <ul class="guide__detail__right">
+                                <li><a href="#">환승투어 안내</a></li>
+                                <li><a href="#">코스소개</a></li>
+                                <li><a href="#">환승투어 예약</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--common-guide -->
+    <section id="general__information" class="section">
+        <div class="main__content">
+            <h2 class="content__title white">인천국제공항 종합안내</h2>
+            <div class="terminal">
+                <div class="terminal__item">
+                    <div class="terminal__item__headgroup">
+                        <h4 class="heading">제1여객터미널</h4>
+                    </div>
+                    <ul class="shopping">
+                        <li class="shopping__list"><a href="#">면세쇼핑</a></li>
+                        <li class="shopping__list"><a href="#">일반쇼핑</a></li>
+                        <li class="shopping__list"><a href="#">식당</a></li>
+                        <li class="shopping__list"><a href="#">편의시설</a></li>
+                        <li class="shopping__list"><a href="#">안내데스크</a></li>
+                        <li class="shopping__list"><a href="#">24시간 매장</a></li>
+                    </ul>
+                </div>
+                <div class="terminal__item">
+                    <div class="terminal__item__headgroup">
+                        <h4 class="heading">제2여객터미널</h4>
+                    </div>
+                    <ul class="shopping">
+                        <li class="shopping__list"><a href="#">면세쇼핑</a></li>
+                        <li class="shopping__list"><a href="#">일반쇼핑</a></li>
+                        <li class="shopping__list"><a href="#">식당</a></li>
+                        <li class="shopping__list"><a href="#">편의시설</a></li>
+                        <li class="shopping__list"><a href="#">안내데스크</a></li>
+                        <li class="shopping__list"><a href="#">24시간 매장</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        <div class="banner__wrap">
+            <ul class="banner__slide">
+                <li class="banner__slide__list"><img src="./img/banner1.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner2.jpg" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner3.jpg" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner4.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner5.jpg" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner6.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner7.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner8.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner9.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner10.gif" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner11.jpg" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner12.png" alt=""></li>
+                <li class="banner__slide__list"><img src="./img/banner13.jpg" alt=""></li>
+            </ul>
+        </div>
+        <button class="banner__button">move slide!!</button>
+    </section>
+    <footer id="footer">
+        <div>
+            <nav class="fnb">
+                <ul class="fnb__menu">
+                    <li class="fnb__menu__list">홈</li>
+                    <li class="fnb__menu__list">이용약관</li>
+                    <li class="fnb__menu__list">개인정보처리방침</li>
+                    <li class="fnb__menu__list">항공안전신고</li>
+                    <li class="fnb__menu__list">저작권보호정책</li>
+                    <li class="fnb__menu__list">이메일 주소 무단수집 거부</li>
+                    <li class="fnb__menu__list">시각장애인이용안내</li>
+                </ul>
+            </nav>
+            <div class="footer__bottom">
+                <div class="footer__left">
+                    <p class="footer__call">인천국제공항 고객센터 <span>1577-2600</span></p>
+                    <ul class="footer__contact">
+                        <li>인천국제공항 제1여객터미널 : 22382 인천시 중구 공항로 272</li>
+                        <li>인인천국제공항 제2여객터미널 : 22382 인천시 중구 제2터미널대로 446</li>
+                    </ul>
+                    <ul class="footer__contact">
+                        <li>인천국제공항공사 : 22382 인천시 중구 공항로 424번길 47</li>
+                    </ul>
+                    <address class="footer__copyrights">
+                        Copyright Incheon International Airport Corporation. All rights reserved.
+                    </address>
+                </div>
+                <div class="footer__right">
+                    <ul class="fnb__sns">
+                        <li class="fnb__sns__list"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="fnb__sns__list"><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="fnb__sns__list"><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li class="fnb__sns__list"><a href=""><i class="fab fa-weibo"></i></a></li>
+                        <li class="fnb__sns__list"><a href=""><i class="fab fa-line"></i></a></li>
+                        <li class="fnb__sns__list"><a href=""><i class="fab fa-wikipedia-w"></i></a></li>
+                    </ul>
+                    <ul class="incheon__etc">
+                        <li><img src="./img/logo_web_access_mark.png" alt=""></li>
+                        <li><img src="./img/logo_google_play_badge.png" alt=""></li>
+                    </ul>
+                    <div class="relsite">
+                        <button class="select__link__off" name="button" type="button" title="클릭하면 관련사이트 목록이 나타납니다.">
+                            <span>관련사이트</span>
+                            <span class="arrow__down"><i class="fas fa-chevron-up"></i></span>
+                        </button>
+                        <ul class="select__list">
+                            <li class="select__list__item">전자입찰시스템</li>
+                            <li class="select__list__item">인터넷청구시스템</li>
+                            <li class="select__list__item">장애물관리안내</li>
+                            <li class="select__list__item">항공물류정보시스템</li>
+                            <li class="select__list__item">항공보안교육원</li>
+                            <li class="select__list__item">Aviation Academy</li>
+                            <li class="select__list__item">운항자료서비스</li>
+                            <li class="select__list__item">적재대관리 홈페이지</li>
+                            <li class="select__list__item">인천공항 4단계 건설사업</li>
+                            <li class="select__list__item">인천공항 인재개발원</li>
+                            <li class="select__list__item">인천공항 공항산업기술연구원</li>
+                            <li class="select__list__item">인천공항 스카이몬스</li>
+                            <li class="select__list__item">공항경제권 홈페이지</li>
+                            <li class="select__list__item">인천공항에너지(주)</li>
+                            <li class="select__list__item">인천공항시설관리(주)</li>
+                            <li class="select__list__item">인천공항운영서비스(주)</li>
+                            <li class="select__list__item">입주자서비스포탈</li>
+                            <li class="select__list__item">컬쳐포트·아트포트 </li>
+                            <li class="select__list__item">국토교통부 홈페이지</li>
+                            <li class="select__list__item">인천국제공항경찰단</li>
+                            <li class="select__list__item">외교부 안전여행</li>
+                            <li class="select__list__item">언어가 안통할때</li>
+                            <li class="select__list__item">도로명주소안내</li>
+                            <li class="select__list__item">해외여행질병정보센터</li>
+                            <li class="select__list__item">한국공항공사</li>
+                            <li class="select__list__item">안전Dream</li>
+                            <li class="select__list__item">관세청</li>
+                            <li class="select__list__item">출입국외국인정책본부</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
